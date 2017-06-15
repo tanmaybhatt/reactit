@@ -1,0 +1,19 @@
+{
+  "name": "reactit",
+  "version": "1.0.0",
+  "description": "React CLI for creating React Applications in seconds",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "cons": "bin/command.js"
+  },
+  "author": "Tanmay Bhatt",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "progress": "^2.0.0",
+    "shelljs": "^0.7.8"
+  }
+}
