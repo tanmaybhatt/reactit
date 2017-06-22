@@ -49,7 +49,9 @@ $ reactit start --hot
 ```
 #### More options coming very soon ####
 ## License ##
+ISC
 ```
+ISC
 Copyright (c) 2017, Tanmay Bhatt
 
 Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
