@@ -6,6 +6,9 @@ Create and manage React application in seconds.
 Basic useful feature list:
 
  * Create and run application with single commands.
+ * Supports multiple development environments. 
+ * Create **simple** react application working on webpack and webpack-dev-server.
+ * Create **express** react application working on general express server.
  * Supports latest **ES6** javascript.
  * Supports **SASS** to create sassy stylesheets.
  * Supports **hot loading** using webpack-dev-server.
@@ -28,11 +31,22 @@ $ reactit new <app_name>
 Above command will create a new project folder <app_name> in current working directory and install all the required modules for you.
 
 If you want create application in current working directory itself you can simply use the following command.
-
 ```
 $ reactit new
 ```
 
+### There are multiple options available for creating new application. ###
+
+1. By default, the above command will create a simple react application working on webpack-dev-server. You can also use the **--simple** option to create the same.
+
+```
+$ reactit new --simple <app_name>
+```
+2. You may also create an application the work on general express server on which you can get the basic functions of an express server using **--express** option.
+
+```
+$ reactit new --express <app_name>
+```
 Now you can go to the application directory to start the application.
 
 ```
@@ -43,7 +57,7 @@ And start the application using **start** command
 ```
 $ reactit start
 ```
-Enable **hot loading** using **--hot** argument.
+Enable **hot loading** using **--hot** argument.(Express application by default work with hot reloading and cannot work without it.)
 ```
 $ reactit start --hot
 ```
