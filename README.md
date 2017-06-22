@@ -45,7 +45,7 @@ $ reactit start
 ```
 Enable **hot loading** using **--hot** argument.
 ```
-$ react start --hot
+$ reactit start --hot
 ```
 #### More options coming very soon ####
 ## License ##
