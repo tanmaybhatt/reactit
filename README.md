@@ -9,6 +9,7 @@ Basic useful feature list:
  * Supports multiple development environments. 
  * Create **simple** react application working on webpack and webpack-dev-server.
  * Create **express** react application working on general express server.
+ * Create **Isomorphic** react application working on general express server supporting **Server-Side Rendering**.
  * Supports latest **ES6** javascript.
  * Supports **SASS** to create sassy stylesheets.
  * Supports **hot loading** using webpack-dev-server.
@@ -47,6 +48,11 @@ $ reactit new --simple <app_name>
 ```
 $ reactit new --express <app_name>
 ```
+3. You may also create an application the work on general express server with **Isomorphic Javascript** on which you can get the basic functions of an express server with the support for **Server-Side Rendering** using **--express-iso** option.
+
+```
+$ reactit new --express-iso <app_name>
+```
 Now you can go to the application directory to start the application.
 
 ```
@@ -57,7 +63,7 @@ And start the application using **start** command
 ```
 $ reactit start
 ```
-Enable **hot loading** using **--hot** argument.(Express application by default work with hot reloading and cannot work without it.)
+Enable **hot loading** using **--hot** argument. (Express applications,by default, work with hot reloading and cannot work without it.)
 ```
 $ reactit start --hot
 ```
