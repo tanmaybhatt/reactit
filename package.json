@@ -1,6 +1,6 @@
 {
   "name": "reactit",
-  "version": "0.3.5",
+  "version": "0.6.1",
   "description": "React CLI for creating React Applications in seconds",
   "main": "index.js",
   "scripts": {
